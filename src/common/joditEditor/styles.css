@@ -1,0 +1,11 @@
+/* Ensure input starts from the top-left */
+.jodit-wysiwyg {
+  text-align: left !important; /* Align text to the left */
+  padding: 10px !important; /* Add padding to text */
+  min-height: 300px !important; /* Set a proper height */
+}
+
+/* Remove "Powered by Jodit" watermark */
+.jodit-status-bar a {
+  display: none !important;
+}
